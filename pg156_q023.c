@@ -11,5 +11,15 @@ int main (int argc, char* argv[] ){
     * output -> "1 2 5 10 ", without quotes
     * Note that there is one space after each number */
 
+    int n=0,i=1;
+    scanf("%d", &n);
+    while(i<=n)
+    {
+        if(n%i==0)
+        {
+            printf("%d ",i);
+        }
+        i++;
+    }
     return 0;
 }
